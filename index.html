@@ -123,7 +123,100 @@
     </section>
   </main>
 
-  <footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark">R<span>DS</span></span><span class="brand-name">ROMERO <b>DIGITAL STUDIO</b></span></a><p>Soluciones tecnológicas con atención cercana.</p><span class="copyright">© <span id="year"></span> Romero Digital Studio. Todos los derechos reservados.</span></footer>
+  <footer> <section id="precios" class="services-prices">
+  <div class="prices-heading">
+    <span>ROMERO DIGITAL STUDIO</span>
+    <h2>Nuestros servicios</h2>
+    <p>Soluciones profesionales para tus equipos.</p>
+  </div>
+
+  <div class="prices-grid">
+
+    <article class="price-card">
+      <h3>PlayStation 4</h3>
+      <p>Fat / Slim</p>
+      <strong>RD$1,300</strong>
+      <p>PS4 Pro</p>
+      <strong>RD$1,600</strong>
+    </article>
+
+    <article class="price-card">
+      <h3>PlayStation 5</h3>
+      <p>PS5 Fat</p>
+      <strong>RD$1,900</strong>
+      <p>PS5 Slim</p>
+      <strong>RD$2,000</strong>
+      <p>PS5 Pro</p>
+      <strong>RD$2,200</strong>
+    </article>
+
+    <article class="price-card">
+      <h3>Computadoras</h3>
+      <p>Limpieza</p>
+      <strong>RD$1,200</strong>
+      <p>Formateo e instalación</p>
+      <strong>RD$1,500</strong>
+    </article>
+
+    <article class="price-card">
+      <h3>Otros servicios</h3>
+      <p>Formateo</p>
+      <strong>RD$1,500</strong>
+      <p>Cambio de disco e instalación</p>
+      <strong>RD$2,400</strong>
+    </article>
+
+  </div>
+</section>
+
+<style>
+.services-prices {
+  background: #090909;
+  color: white;
+  padding: 80px 7%;
+  text-align: center;
+}
+
+.prices-heading span {
+  color: #d6ae54;
+  letter-spacing: 3px;
+}
+
+.prices-heading h2 {
+  font-size: 38px;
+}
+
+.prices-grid {
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit,minmax(220px,1fr));
+  gap: 22px;
+  margin-top: 40px;
+}
+
+.price-card {
+  background: #151515;
+  border: 1px solid #b89548;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.price-card h3 {
+  color: #d6ae54;
+}
+
+.price-card strong {
+  display: block;
+  color: #e8c46a;
+  font-size: 24px;
+  margin: 12px 0;
+}
+
+.price-card p {
+  color: #ccc;
+}
+</style>
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">R<span>DS</span></span><span class="brand-name">ROMERO <b>DIGITAL STUDIO</b></span></a><p>Soluciones tecnológicas con atención cercana.</p><span class="copyright">© <span id="year"></span> Romero Digital Studio. Todos los derechos reservados.</span></footer>
   <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
